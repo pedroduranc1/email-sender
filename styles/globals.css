@@ -1,3 +1,15 @@
+/* input.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 bg-blue-500 text-white;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
